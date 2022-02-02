@@ -1,0 +1,4 @@
+import qrcode
+img = qrcode.make(' Hellow  Here is SharkWorld \n and dont forgot to \n\t Follow me up!')
+type(img)  # qrcode.image.pil.PilImage
+img.save("some_file.png")
